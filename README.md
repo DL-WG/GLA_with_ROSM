@@ -4,3 +4,6 @@ The reportory including python scripts for reduced-order-modelling (POD, 1D CAE 
 
 The CFD data for one simulation (Um = 0.52) is given in the data reportory.
 These data can used to train the ROM and the LSTM using the scripts in these folders respectively
+
+
+Due to the large volume, we provide only 5 time steps of oil concentration data in the two-phase flow application. The full CFD dataset is available upon reasonalble request to sibo.cheng@imperial.ac.uk

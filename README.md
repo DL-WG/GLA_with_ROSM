@@ -8,6 +8,7 @@ If you are interested in applying GLA for a inverse problem with an initial gues
 Due to the large volume, we provide only 5 time steps of oil concentration data (The CFD data for one simulation (Um = 0.52)) in the two-phase flow application. To read and reshape openfoam data, please refer to the python script load_data.py in ROM repotory. The full CFD dataset is available upon reasonalble request to sibo.cheng@imperial.ac.uk
 
 citation:
+
 @article{cheng2022generalised,
   title={Generalised Latent Assimilation in Heterogeneous Reduced Spaces with Machine Learning Surrogate Models},
   author={Cheng, Sibo and Chen, Jianhua and Anastasiou, Charitos and Angeli, Panagiota and Matar, Omar K and Guo, Yi-Ke and Pain, Christopher C and Arcucci, Rossella},

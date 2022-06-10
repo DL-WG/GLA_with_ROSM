@@ -114,7 +114,7 @@ model.add(LeakyReLU(alpha=0.3))
 ##################################################################
 #training
 model.compile(loss='mse', optimizer='adam', metrics=['mae'])
-history = model.fit(input_data , output_data, validation_split=0.01, epochs=2000,batch_size=32,verbose=2)
+history = model.fit(X1, Y1, validation_split=0.01, epochs=2000,batch_size=32,verbose=2)
 
 # ####################################################################
 # # evalutation in the latent space
